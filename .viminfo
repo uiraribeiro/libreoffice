@@ -15,11 +15,11 @@
 
 # Histórico de linha de comando (mais recente primeiro):
 :wq
-|2,0,1680023201,,"wq"
+|2,0,1680024071,,"wq"
+:q
+|2,0,1680023757,,"q"
 :Wq
 |2,0,1680022745,,"Wq"
-:q
-|2,0,1680022410,,"q"
 :23
 |2,0,1680021719,,"23"
 :w
@@ -47,263 +47,288 @@
 "0	LINE	0
 	      - /var/run:/tmp/run
 |3,0,0,1,1,0,1680016518,"      - /var/run:/tmp/run"
-"1	LINE	0
-	    $result = json_decode($result);
-|3,0,1,1,1,0,1680022860,"    $result = json_decode($result);"
+""1	LINE	0
+	  UseKeychain yes
+|3,1,1,1,1,0,1680023830,"  UseKeychain yes"
 "2	LINE	0
-	    curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
-|3,0,2,1,1,0,1680022795,"    curl_setopt($ch, CURLOPT_POSTFIELDS, $data);"
+	  AddKeysToAgent yes
+|3,0,2,1,1,0,1680023821,"  AddKeysToAgent yes"
 "3	LINE	0
-	    $data = json_encode($json);
-|3,0,3,1,1,0,1680022792,"    $data = json_encode($json);"
+	    $result = json_decode($result);
+|3,0,3,1,1,0,1680022860,"    $result = json_decode($result);"
 "4	LINE	0
-	
-|3,0,4,1,1,0,1680022537,""
+	    curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+|3,0,4,1,1,0,1680022795,"    curl_setopt($ch, CURLOPT_POSTFIELDS, $data);"
 "5	LINE	0
-	print_r($json_convertido);
-|3,0,5,1,1,0,1680022531,"print_r($json_convertido);"
+	    $data = json_encode($json);
+|3,0,5,1,1,0,1680022792,"    $data = json_encode($json);"
 "6	LINE	0
-	$json_convertido = json_decode($ret,true);
-|3,0,6,1,1,0,1680022531,"$json_convertido = json_decode($ret,true);"
+	
+|3,0,6,1,1,0,1680022537,""
 "7	LINE	0
+	print_r($json_convertido);
+|3,0,7,1,1,0,1680022531,"print_r($json_convertido);"
+"8	LINE	0
+	$json_convertido = json_decode($ret,true);
+|3,0,8,1,1,0,1680022531,"$json_convertido = json_decode($ret,true);"
+"9	LINE	0
 	}
 	
-|3,0,7,1,2,0,1680022106,"}",""
-"8	LINE	0
-		$id= $json_convertido['Id'];
-|3,0,8,1,1,0,1680022105,"	$id= $json_convertido['Id'];"
-"9	LINE	0
-		$json_convertido = json_decode($ret,true);
-|3,0,9,1,1,0,1680022105,"	$json_convertido = json_decode($ret,true);"
-""-	CHAR	0
+|3,0,9,1,2,0,1680022106,"}",""
+"-	CHAR	0
 	t
-|3,1,36,0,1,0,1680023093,"t"
+|3,0,36,0,1,0,1680023093,"t"
 
 # Marcas nos arquivos:
-'0  35  18  ~/web/docker-compose.yml
-|4,48,35,18,1680023201,"~/web/docker-compose.yml"
-'1  26  7  ~/web/docker-compose.yml
-|4,49,26,7,1680023077,"~/web/docker-compose.yml"
-'2  26  7  ~/web/docker-compose.yml
-|4,50,26,7,1680023077,"~/web/docker-compose.yml"
-'3  44  20  ~/web/html/cria_conteiner.php
-|4,51,44,20,1680022899,"~/web/html/cria_conteiner.php"
-'4  49  19  ~/web/html/cria_conteiner.php
-|4,52,49,19,1680022887,"~/web/html/cria_conteiner.php"
-'5  49  19  ~/web/html/cria_conteiner.php
-|4,53,49,19,1680022887,"~/web/html/cria_conteiner.php"
-'6  47  80  ~/web/html/cria_conteiner.php
-|4,54,47,80,1680022826,"~/web/html/cria_conteiner.php"
-'7  47  80  ~/web/html/cria_conteiner.php
-|4,55,47,80,1680022826,"~/web/html/cria_conteiner.php"
-'8  47  80  ~/web/html/cria_conteiner.php
-|4,56,47,80,1680022826,"~/web/html/cria_conteiner.php"
-'9  47  80  ~/web/html/cria_conteiner.php
-|4,57,47,80,1680022826,"~/web/html/cria_conteiner.php"
+'0  3  7  ~/.gitignore
+|4,48,3,7,1680024071,"~/.gitignore"
+'1  2  12  ~/.gitignore
+|4,49,2,12,1680024066,"~/.gitignore"
+'2  2  12  ~/.gitignore
+|4,50,2,12,1680024066,"~/.gitignore"
+'3  1  0  ~/.git/COMMIT_EDITMSG
+|4,51,1,0,1680024056,"~/.git/COMMIT_EDITMSG"
+'4  1  1  ~/.gitignore
+|4,52,1,1,1680024035,"~/.gitignore"
+'5  1  1  ~/.gitignore
+|4,53,1,1,1680024035,"~/.gitignore"
+'6  1  1  ~/.gitignore
+|4,54,1,1,1680024035,"~/.gitignore"
+'7  1  1  ~/.gitignore
+|4,55,1,1,1680024035,"~/.gitignore"
+'8  1  1  ~/.git/COMMIT_EDITMSG
+|4,56,1,1,1680023979,"~/.git/COMMIT_EDITMSG"
+'9  2  2  ~/.ssh/config
+|4,57,2,2,1680023831,"~/.ssh/config"
 
 # Lista de saltos (mais recente primeiro):
--'  35  18  ~/web/docker-compose.yml
-|4,39,35,18,1680023201,"~/web/docker-compose.yml"
--'  26  7  ~/web/docker-compose.yml
-|4,39,26,7,1680023089,"~/web/docker-compose.yml"
--'  26  7  ~/web/docker-compose.yml
-|4,39,26,7,1680023077,"~/web/docker-compose.yml"
--'  22  25  ~/web/docker-compose.yml
-|4,39,22,25,1680023058,"~/web/docker-compose.yml"
--'  22  25  ~/web/docker-compose.yml
-|4,39,22,25,1680023058,"~/web/docker-compose.yml"
--'  44  20  ~/web/html/cria_conteiner.php
-|4,39,44,20,1680022899,"~/web/html/cria_conteiner.php"
--'  44  20  ~/web/html/cria_conteiner.php
-|4,39,44,20,1680022899,"~/web/html/cria_conteiner.php"
--'  44  20  ~/web/html/cria_conteiner.php
-|4,39,44,20,1680022899,"~/web/html/cria_conteiner.php"
--'  44  20  ~/web/html/cria_conteiner.php
-|4,39,44,20,1680022899,"~/web/html/cria_conteiner.php"
--'  49  19  ~/web/html/cria_conteiner.php
-|4,39,49,19,1680022892,"~/web/html/cria_conteiner.php"
--'  49  19  ~/web/html/cria_conteiner.php
-|4,39,49,19,1680022892,"~/web/html/cria_conteiner.php"
--'  49  19  ~/web/html/cria_conteiner.php
-|4,39,49,19,1680022892,"~/web/html/cria_conteiner.php"
--'  49  19  ~/web/html/cria_conteiner.php
-|4,39,49,19,1680022892,"~/web/html/cria_conteiner.php"
--'  49  19  ~/web/html/cria_conteiner.php
-|4,39,49,19,1680022887,"~/web/html/cria_conteiner.php"
--'  49  19  ~/web/html/cria_conteiner.php
-|4,39,49,19,1680022887,"~/web/html/cria_conteiner.php"
--'  49  19  ~/web/html/cria_conteiner.php
-|4,39,49,19,1680022887,"~/web/html/cria_conteiner.php"
--'  49  19  ~/web/html/cria_conteiner.php
-|4,39,49,19,1680022887,"~/web/html/cria_conteiner.php"
--'  47  80  ~/web/html/cria_conteiner.php
-|4,39,47,80,1680022836,"~/web/html/cria_conteiner.php"
--'  47  80  ~/web/html/cria_conteiner.php
-|4,39,47,80,1680022836,"~/web/html/cria_conteiner.php"
--'  47  80  ~/web/html/cria_conteiner.php
-|4,39,47,80,1680022836,"~/web/html/cria_conteiner.php"
--'  47  80  ~/web/html/cria_conteiner.php
-|4,39,47,80,1680022836,"~/web/html/cria_conteiner.php"
--'  47  80  ~/web/html/cria_conteiner.php
-|4,39,47,80,1680022836,"~/web/html/cria_conteiner.php"
--'  47  80  ~/web/html/cria_conteiner.php
-|4,39,47,80,1680022836,"~/web/html/cria_conteiner.php"
--'  47  80  ~/web/html/cria_conteiner.php
-|4,39,47,80,1680022836,"~/web/html/cria_conteiner.php"
--'  47  80  ~/web/html/cria_conteiner.php
-|4,39,47,80,1680022836,"~/web/html/cria_conteiner.php"
--'  47  80  ~/web/html/cria_conteiner.php
-|4,39,47,80,1680022826,"~/web/html/cria_conteiner.php"
--'  47  80  ~/web/html/cria_conteiner.php
-|4,39,47,80,1680022826,"~/web/html/cria_conteiner.php"
--'  47  80  ~/web/html/cria_conteiner.php
-|4,39,47,80,1680022826,"~/web/html/cria_conteiner.php"
--'  47  80  ~/web/html/cria_conteiner.php
-|4,39,47,80,1680022826,"~/web/html/cria_conteiner.php"
--'  19  23  ~/web/html/cria_conteiner.php
-|4,39,19,23,1680022785,"~/web/html/cria_conteiner.php"
--'  19  23  ~/web/html/cria_conteiner.php
-|4,39,19,23,1680022785,"~/web/html/cria_conteiner.php"
--'  19  23  ~/web/html/cria_conteiner.php
-|4,39,19,23,1680022785,"~/web/html/cria_conteiner.php"
--'  19  23  ~/web/html/cria_conteiner.php
-|4,39,19,23,1680022785,"~/web/html/cria_conteiner.php"
--'  19  23  ~/web/html/cria_conteiner.php
-|4,39,19,23,1680022785,"~/web/html/cria_conteiner.php"
--'  19  23  ~/web/html/cria_conteiner.php
-|4,39,19,23,1680022785,"~/web/html/cria_conteiner.php"
--'  19  23  ~/web/html/cria_conteiner.php
-|4,39,19,23,1680022785,"~/web/html/cria_conteiner.php"
--'  19  23  ~/web/html/cria_conteiner.php
-|4,39,19,23,1680022785,"~/web/html/cria_conteiner.php"
--'  19  23  ~/web/html/cria_conteiner.php
-|4,39,19,23,1680022785,"~/web/html/cria_conteiner.php"
--'  19  23  ~/web/html/cria_conteiner.php
-|4,39,19,23,1680022785,"~/web/html/cria_conteiner.php"
--'  19  23  ~/web/html/cria_conteiner.php
-|4,39,19,23,1680022785,"~/web/html/cria_conteiner.php"
--'  19  23  ~/web/html/cria_conteiner.php
-|4,39,19,23,1680022785,"~/web/html/cria_conteiner.php"
--'  19  23  ~/web/html/cria_conteiner.php
-|4,39,19,23,1680022774,"~/web/html/cria_conteiner.php"
--'  19  23  ~/web/html/cria_conteiner.php
-|4,39,19,23,1680022774,"~/web/html/cria_conteiner.php"
--'  19  23  ~/web/html/cria_conteiner.php
-|4,39,19,23,1680022774,"~/web/html/cria_conteiner.php"
--'  19  23  ~/web/html/cria_conteiner.php
-|4,39,19,23,1680022774,"~/web/html/cria_conteiner.php"
--'  19  28  ~/web/html/cria_conteiner.php
-|4,39,19,28,1680022747,"~/web/html/cria_conteiner.php"
--'  19  28  ~/web/html/cria_conteiner.php
-|4,39,19,28,1680022747,"~/web/html/cria_conteiner.php"
--'  19  28  ~/web/html/cria_conteiner.php
-|4,39,19,28,1680022747,"~/web/html/cria_conteiner.php"
--'  19  28  ~/web/html/cria_conteiner.php
-|4,39,19,28,1680022747,"~/web/html/cria_conteiner.php"
--'  12  0  ~/web/html/cria_conteiner.php
-|4,39,12,0,1680022516,"~/web/html/cria_conteiner.php"
--'  12  0  ~/web/html/cria_conteiner.php
-|4,39,12,0,1680022516,"~/web/html/cria_conteiner.php"
--'  12  0  ~/web/html/cria_conteiner.php
-|4,39,12,0,1680022516,"~/web/html/cria_conteiner.php"
--'  12  0  ~/web/html/cria_conteiner.php
-|4,39,12,0,1680022516,"~/web/html/cria_conteiner.php"
--'  12  0  ~/web/html/cria_conteiner.php
-|4,39,12,0,1680022516,"~/web/html/cria_conteiner.php"
--'  12  0  ~/web/html/cria_conteiner.php
-|4,39,12,0,1680022516,"~/web/html/cria_conteiner.php"
--'  12  0  ~/web/html/cria_conteiner.php
-|4,39,12,0,1680022516,"~/web/html/cria_conteiner.php"
--'  12  0  ~/web/html/cria_conteiner.php
-|4,39,12,0,1680022516,"~/web/html/cria_conteiner.php"
--'  12  0  ~/web/html/cria_conteiner.php
-|4,39,12,0,1680022516,"~/web/html/cria_conteiner.php"
--'  12  0  ~/web/html/cria_conteiner.php
-|4,39,12,0,1680022516,"~/web/html/cria_conteiner.php"
--'  12  0  ~/web/html/cria_conteiner.php
-|4,39,12,0,1680022516,"~/web/html/cria_conteiner.php"
--'  12  0  ~/web/html/cria_conteiner.php
-|4,39,12,0,1680022516,"~/web/html/cria_conteiner.php"
--'  12  0  ~/web/html/cria_conteiner.php
-|4,39,12,0,1680022516,"~/web/html/cria_conteiner.php"
--'  12  0  ~/web/html/cria_conteiner.php
-|4,39,12,0,1680022516,"~/web/html/cria_conteiner.php"
--'  12  0  ~/web/html/cria_conteiner.php
-|4,39,12,0,1680022516,"~/web/html/cria_conteiner.php"
--'  12  0  ~/web/html/cria_conteiner.php
-|4,39,12,0,1680022516,"~/web/html/cria_conteiner.php"
--'  12  0  ~/web/html/cria_conteiner.php
-|4,39,12,0,1680022516,"~/web/html/cria_conteiner.php"
--'  12  0  ~/web/html/cria_conteiner.php
-|4,39,12,0,1680022516,"~/web/html/cria_conteiner.php"
--'  12  0  ~/web/html/cria_conteiner.php
-|4,39,12,0,1680022516,"~/web/html/cria_conteiner.php"
--'  12  0  ~/web/html/cria_conteiner.php
-|4,39,12,0,1680022516,"~/web/html/cria_conteiner.php"
--'  12  0  ~/web/html/cria_conteiner.php
-|4,39,12,0,1680022412,"~/web/html/cria_conteiner.php"
--'  12  0  ~/web/html/cria_conteiner.php
-|4,39,12,0,1680022412,"~/web/html/cria_conteiner.php"
--'  12  0  ~/web/html/cria_conteiner.php
-|4,39,12,0,1680022412,"~/web/html/cria_conteiner.php"
--'  12  0  ~/web/html/cria_conteiner.php
-|4,39,12,0,1680022412,"~/web/html/cria_conteiner.php"
--'  23  0  ~/web/html/cria_conteiner.php
-|4,39,23,0,1680022369,"~/web/html/cria_conteiner.php"
--'  21  0  ~/web/html/cria_conteiner.php
-|4,39,21,0,1680022369,"~/web/html/cria_conteiner.php"
--'  23  0  ~/web/html/cria_conteiner.php
-|4,39,23,0,1680022369,"~/web/html/cria_conteiner.php"
--'  21  0  ~/web/html/cria_conteiner.php
-|4,39,21,0,1680022369,"~/web/html/cria_conteiner.php"
--'  23  0  ~/web/html/cria_conteiner.php
-|4,39,23,0,1680022369,"~/web/html/cria_conteiner.php"
--'  21  0  ~/web/html/cria_conteiner.php
-|4,39,21,0,1680022369,"~/web/html/cria_conteiner.php"
--'  23  0  ~/web/html/cria_conteiner.php
-|4,39,23,0,1680022369,"~/web/html/cria_conteiner.php"
--'  21  0  ~/web/html/cria_conteiner.php
-|4,39,21,0,1680022369,"~/web/html/cria_conteiner.php"
--'  23  0  ~/web/html/cria_conteiner.php
-|4,39,23,0,1680022369,"~/web/html/cria_conteiner.php"
--'  21  0  ~/web/html/cria_conteiner.php
-|4,39,21,0,1680022369,"~/web/html/cria_conteiner.php"
--'  23  0  ~/web/html/cria_conteiner.php
-|4,39,23,0,1680022369,"~/web/html/cria_conteiner.php"
--'  21  0  ~/web/html/cria_conteiner.php
-|4,39,21,0,1680022369,"~/web/html/cria_conteiner.php"
--'  23  0  ~/web/html/cria_conteiner.php
-|4,39,23,0,1680022369,"~/web/html/cria_conteiner.php"
--'  21  0  ~/web/html/cria_conteiner.php
-|4,39,21,0,1680022369,"~/web/html/cria_conteiner.php"
--'  23  0  ~/web/html/cria_conteiner.php
-|4,39,23,0,1680022369,"~/web/html/cria_conteiner.php"
--'  21  0  ~/web/html/cria_conteiner.php
-|4,39,21,0,1680022369,"~/web/html/cria_conteiner.php"
--'  23  0  ~/web/html/cria_conteiner.php
-|4,39,23,0,1680022369,"~/web/html/cria_conteiner.php"
--'  21  0  ~/web/html/cria_conteiner.php
-|4,39,21,0,1680022369,"~/web/html/cria_conteiner.php"
--'  23  0  ~/web/html/cria_conteiner.php
-|4,39,23,0,1680022369,"~/web/html/cria_conteiner.php"
--'  21  0  ~/web/html/cria_conteiner.php
-|4,39,21,0,1680022369,"~/web/html/cria_conteiner.php"
--'  23  0  ~/web/html/cria_conteiner.php
-|4,39,23,0,1680022369,"~/web/html/cria_conteiner.php"
--'  21  0  ~/web/html/cria_conteiner.php
-|4,39,21,0,1680022369,"~/web/html/cria_conteiner.php"
--'  23  0  ~/web/html/cria_conteiner.php
-|4,39,23,0,1680022369,"~/web/html/cria_conteiner.php"
--'  21  0  ~/web/html/cria_conteiner.php
-|4,39,21,0,1680022369,"~/web/html/cria_conteiner.php"
--'  23  0  ~/web/html/cria_conteiner.php
-|4,39,23,0,1680022369,"~/web/html/cria_conteiner.php"
--'  21  0  ~/web/html/cria_conteiner.php
-|4,39,21,0,1680022369,"~/web/html/cria_conteiner.php"
--'  23  0  ~/web/html/cria_conteiner.php
-|4,39,23,0,1680022369,"~/web/html/cria_conteiner.php"
+-'  3  7  ~/.gitignore
+|4,39,3,7,1680024071,"~/.gitignore"
+-'  2  12  ~/.gitignore
+|4,39,2,12,1680024069,"~/.gitignore"
+-'  2  12  ~/.gitignore
+|4,39,2,12,1680024066,"~/.gitignore"
+-'  1  1  ~/.gitignore
+|4,39,1,1,1680024060,"~/.gitignore"
+-'  1  1  ~/.gitignore
+|4,39,1,1,1680024060,"~/.gitignore"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1680024056,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1680024056,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1680024056,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1680024056,"~/.git/COMMIT_EDITMSG"
+-'  1  1  ~/.gitignore
+|4,39,1,1,1680024035,"~/.gitignore"
+-'  1  1  ~/.gitignore
+|4,39,1,1,1680024035,"~/.gitignore"
+-'  1  1  ~/.git/COMMIT_EDITMSG
+|4,39,1,1,1680023979,"~/.git/COMMIT_EDITMSG"
+-'  1  1  ~/.git/COMMIT_EDITMSG
+|4,39,1,1,1680023979,"~/.git/COMMIT_EDITMSG"
+-'  1  1  ~/.git/COMMIT_EDITMSG
+|4,39,1,1,1680023979,"~/.git/COMMIT_EDITMSG"
+-'  1  1  ~/.git/COMMIT_EDITMSG
+|4,39,1,1,1680023979,"~/.git/COMMIT_EDITMSG"
+-'  1  1  ~/.git/COMMIT_EDITMSG
+|4,39,1,1,1680023979,"~/.git/COMMIT_EDITMSG"
+-'  1  1  ~/.git/COMMIT_EDITMSG
+|4,39,1,1,1680023979,"~/.git/COMMIT_EDITMSG"
+-'  1  1  ~/.git/COMMIT_EDITMSG
+|4,39,1,1,1680023979,"~/.git/COMMIT_EDITMSG"
+-'  1  1  ~/.git/COMMIT_EDITMSG
+|4,39,1,1,1680023979,"~/.git/COMMIT_EDITMSG"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023831,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023831,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023831,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023831,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023831,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023831,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023831,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023831,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023831,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023831,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023831,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023831,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023831,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023831,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023831,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023831,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023831,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023831,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023831,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023831,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023831,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023831,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023831,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023831,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023831,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023831,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023831,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023831,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023831,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023831,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023831,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023831,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023824,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023824,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023824,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023824,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023824,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023824,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023824,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023824,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023824,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023824,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023824,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023824,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023824,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023824,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023824,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023824,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023824,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023824,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023824,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023824,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023824,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023824,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023824,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023824,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023824,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023824,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023824,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023824,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023824,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023824,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023824,"~/.ssh/config"
+-'  2  2  ~/.ssh/config
+|4,39,2,2,1680023824,"~/.ssh/config"
+-'  3  31  ~/.ssh/config
+|4,39,3,31,1680023817,"~/.ssh/config"
+-'  3  31  ~/.ssh/config
+|4,39,3,31,1680023817,"~/.ssh/config"
+-'  3  31  ~/.ssh/config
+|4,39,3,31,1680023817,"~/.ssh/config"
+-'  3  31  ~/.ssh/config
+|4,39,3,31,1680023817,"~/.ssh/config"
+-'  3  31  ~/.ssh/config
+|4,39,3,31,1680023817,"~/.ssh/config"
+-'  3  31  ~/.ssh/config
+|4,39,3,31,1680023817,"~/.ssh/config"
+-'  3  31  ~/.ssh/config
+|4,39,3,31,1680023817,"~/.ssh/config"
+-'  3  31  ~/.ssh/config
+|4,39,3,31,1680023817,"~/.ssh/config"
+-'  3  31  ~/.ssh/config
+|4,39,3,31,1680023817,"~/.ssh/config"
+-'  3  31  ~/.ssh/config
+|4,39,3,31,1680023817,"~/.ssh/config"
+-'  3  31  ~/.ssh/config
+|4,39,3,31,1680023817,"~/.ssh/config"
+-'  3  31  ~/.ssh/config
+|4,39,3,31,1680023817,"~/.ssh/config"
+-'  3  31  ~/.ssh/config
+|4,39,3,31,1680023817,"~/.ssh/config"
+-'  3  31  ~/.ssh/config
+|4,39,3,31,1680023817,"~/.ssh/config"
+-'  3  31  ~/.ssh/config
+|4,39,3,31,1680023817,"~/.ssh/config"
+-'  3  31  ~/.ssh/config
+|4,39,3,31,1680023817,"~/.ssh/config"
+-'  3  31  ~/.ssh/config
+|4,39,3,31,1680023817,"~/.ssh/config"
 
 # Histórico de marcas nos arquivos (mais recente primeiro):
+
+> ~/.gitignore
+	*	1680024071	0
+	"	3	7
+	^	3	8
+	.	3	7
+	+	1	1
+	+	2	12
+	+	3	7
+
+> ~/.git/COMMIT_EDITMSG
+	*	1680024051	0
+	"	1	0
+	^	1	2
+	.	1	1
+	+	32	1
+	+	1	1
+
+> ~/.ssh/config
+	*	1680023831	0
+	"	2	2
+	^	2	32
+	.	2	0
+	+	2	31
+	+	2	0
 
 > ~/web/docker-compose.yml
 	*	1680023201	0
