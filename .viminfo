@@ -14,12 +14,12 @@
 ~MSle0~/pdf
 
 # Histórico de linha de comando (mais recente primeiro):
-:wq
-|2,0,1680024507,,"wq"
 :q
-|2,0,1680023757,,"q"
+|2,0,1680024549,,"q"
+:wq
+|2,0,1680024542,,"wq"
 :Wq
-|2,0,1680022745,,"Wq"
+|2,0,1680024541,,"Wq"
 :23
 |2,0,1680021719,,"23"
 :w
@@ -47,69 +47,150 @@
 "0	LINE	0
 	      - /var/run:/tmp/run
 |3,0,0,1,1,0,1680016518,"      - /var/run:/tmp/run"
-"1	LINE	0
-	  UseKeychain yes
-|3,0,1,1,1,0,1680023830,"  UseKeychain yes"
+""1	LINE	0
+	
+|3,1,1,1,1,0,1680024539,""
 "2	LINE	0
-	  AddKeysToAgent yes
-|3,0,2,1,1,0,1680023821,"  AddKeysToAgent yes"
+	
+|3,0,2,1,1,0,1680024538,""
 "3	LINE	0
-	    $result = json_decode($result);
-|3,0,3,1,1,0,1680022860,"    $result = json_decode($result);"
+	
+|3,0,3,1,1,0,1680024537,""
 "4	LINE	0
-	    curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
-|3,0,4,1,1,0,1680022795,"    curl_setopt($ch, CURLOPT_POSTFIELDS, $data);"
+	
+|3,0,4,1,1,0,1680024536,""
 "5	LINE	0
-	    $data = json_encode($json);
-|3,0,5,1,1,0,1680022792,"    $data = json_encode($json);"
+	
+|3,0,5,1,1,0,1680024535,""
 "6	LINE	0
 	
-|3,0,6,1,1,0,1680022537,""
+|3,0,6,1,1,0,1680024532,""
 "7	LINE	0
-	print_r($json_convertido);
-|3,0,7,1,1,0,1680022531,"print_r($json_convertido);"
+	MAINTAINER Gennaro Vietri <gennaro.vietri@bitbull.it>
+|3,0,7,1,1,0,1680024532,"MAINTAINER Gennaro Vietri <gennaro.vietri@bitbull.it>"
 "8	LINE	0
-	$json_convertido = json_decode($ret,true);
-|3,0,8,1,1,0,1680022531,"$json_convertido = json_decode($ret,true);"
+	  UseKeychain yes
+|3,0,8,1,1,0,1680023830,"  UseKeychain yes"
 "9	LINE	0
-	}
-	
-|3,0,9,1,2,0,1680022106,"}",""
-""-	CHAR	0
+	  AddKeysToAgent yes
+|3,0,9,1,1,0,1680023821,"  AddKeysToAgent yes"
+"-	CHAR	0
 	 
-|3,1,36,0,1,0,1680024433," "
+|3,0,36,0,1,0,1680024433," "
 
 # Marcas nos arquivos:
-'0  10  19  ~/docker.txt
-|4,48,10,19,1680024507,"~/docker.txt"
-'1  1  1  ~/.git/COMMIT_EDITMSG
-|4,49,1,1,1680024468,"~/.git/COMMIT_EDITMSG"
-'2  6  8  ~/docker.txt
-|4,50,6,8,1680024457,"~/docker.txt"
-'3  5  8  ~/docker.txt
-|4,51,5,8,1680024457,"~/docker.txt"
-'4  6  2  ~/docker.txt
-|4,52,6,2,1680024445,"~/docker.txt"
-'5  5  2  ~/docker.txt
-|4,53,5,2,1680024445,"~/docker.txt"
-'6  4  1  ~/.git/COMMIT_EDITMSG
-|4,54,4,1,1680024352,"~/.git/COMMIT_EDITMSG"
-'7  4  1  ~/.git/COMMIT_EDITMSG
-|4,55,4,1,1680024352,"~/.git/COMMIT_EDITMSG"
-'8  1  135  ~/docker.txt
-|4,56,1,135,1680024342,"~/docker.txt"
-'9  1  135  ~/docker.txt
-|4,57,1,135,1680024342,"~/docker.txt"
+'0  8  0  ~/socket/entrypoint.sh
+|4,48,8,0,1680024549,"~/socket/entrypoint.sh"
+'1  7  0  ~/socket/Dockerfile
+|4,49,7,0,1680024542,"~/socket/Dockerfile"
+'2  2  1  ~/.git/COMMIT_EDITMSG
+|4,50,2,1,1680024512,"~/.git/COMMIT_EDITMSG"
+'3  10  19  ~/docker.txt
+|4,51,10,19,1680024507,"~/docker.txt"
+'4  1  1  ~/.git/COMMIT_EDITMSG
+|4,52,1,1,1680024468,"~/.git/COMMIT_EDITMSG"
+'5  1  1  ~/.git/COMMIT_EDITMSG
+|4,53,1,1,1680024468,"~/.git/COMMIT_EDITMSG"
+'6  6  8  ~/docker.txt
+|4,54,6,8,1680024457,"~/docker.txt"
+'7  5  8  ~/docker.txt
+|4,55,5,8,1680024457,"~/docker.txt"
+'8  6  2  ~/docker.txt
+|4,56,6,2,1680024445,"~/docker.txt"
+'9  5  2  ~/docker.txt
+|4,57,5,2,1680024445,"~/docker.txt"
 
 # Lista de saltos (mais recente primeiro):
+-'  8  0  ~/socket/entrypoint.sh
+|4,39,8,0,1680024549,"~/socket/entrypoint.sh"
+-'  7  0  ~/socket/Dockerfile
+|4,39,7,0,1680024542,"~/socket/Dockerfile"
+-'  7  0  ~/socket/Dockerfile
+|4,39,7,0,1680024542,"~/socket/Dockerfile"
+-'  2  1  ~/.git/COMMIT_EDITMSG
+|4,39,2,1,1680024512,"~/.git/COMMIT_EDITMSG"
+-'  2  1  ~/.git/COMMIT_EDITMSG
+|4,39,2,1,1680024512,"~/.git/COMMIT_EDITMSG"
+-'  2  1  ~/.git/COMMIT_EDITMSG
+|4,39,2,1,1680024512,"~/.git/COMMIT_EDITMSG"
+-'  2  1  ~/.git/COMMIT_EDITMSG
+|4,39,2,1,1680024512,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1680024510,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1680024510,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1680024510,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1680024510,"~/.git/COMMIT_EDITMSG"
 -'  10  19  ~/docker.txt
 |4,39,10,19,1680024507,"~/docker.txt"
+-'  10  19  ~/docker.txt
+|4,39,10,19,1680024507,"~/docker.txt"
+-'  10  19  ~/docker.txt
+|4,39,10,19,1680024507,"~/docker.txt"
+-'  10  19  ~/docker.txt
+|4,39,10,19,1680024507,"~/docker.txt"
+-'  10  19  ~/docker.txt
+|4,39,10,19,1680024507,"~/docker.txt"
+-'  10  19  ~/docker.txt
+|4,39,10,19,1680024507,"~/docker.txt"
+-'  10  19  ~/docker.txt
+|4,39,10,19,1680024507,"~/docker.txt"
+-'  10  19  ~/docker.txt
+|4,39,10,19,1680024507,"~/docker.txt"
+-'  6  8  ~/docker.txt
+|4,39,6,8,1680024478,"~/docker.txt"
+-'  6  8  ~/docker.txt
+|4,39,6,8,1680024478,"~/docker.txt"
+-'  6  8  ~/docker.txt
+|4,39,6,8,1680024478,"~/docker.txt"
+-'  6  8  ~/docker.txt
+|4,39,6,8,1680024478,"~/docker.txt"
+-'  6  8  ~/docker.txt
+|4,39,6,8,1680024478,"~/docker.txt"
+-'  6  8  ~/docker.txt
+|4,39,6,8,1680024478,"~/docker.txt"
+-'  6  8  ~/docker.txt
+|4,39,6,8,1680024478,"~/docker.txt"
 -'  6  8  ~/docker.txt
 |4,39,6,8,1680024478,"~/docker.txt"
 -'  1  1  ~/.git/COMMIT_EDITMSG
 |4,39,1,1,1680024468,"~/.git/COMMIT_EDITMSG"
 -'  1  1  ~/.git/COMMIT_EDITMSG
 |4,39,1,1,1680024468,"~/.git/COMMIT_EDITMSG"
+-'  1  1  ~/.git/COMMIT_EDITMSG
+|4,39,1,1,1680024468,"~/.git/COMMIT_EDITMSG"
+-'  1  1  ~/.git/COMMIT_EDITMSG
+|4,39,1,1,1680024468,"~/.git/COMMIT_EDITMSG"
+-'  1  1  ~/.git/COMMIT_EDITMSG
+|4,39,1,1,1680024468,"~/.git/COMMIT_EDITMSG"
+-'  1  1  ~/.git/COMMIT_EDITMSG
+|4,39,1,1,1680024468,"~/.git/COMMIT_EDITMSG"
+-'  1  1  ~/.git/COMMIT_EDITMSG
+|4,39,1,1,1680024468,"~/.git/COMMIT_EDITMSG"
+-'  1  1  ~/.git/COMMIT_EDITMSG
+|4,39,1,1,1680024468,"~/.git/COMMIT_EDITMSG"
+-'  5  0  ~/.git/COMMIT_EDITMSG
+|4,39,5,0,1680024465,"~/.git/COMMIT_EDITMSG"
+-'  4  0  ~/.git/COMMIT_EDITMSG
+|4,39,4,0,1680024465,"~/.git/COMMIT_EDITMSG"
+-'  4  0  ~/.git/COMMIT_EDITMSG
+|4,39,4,0,1680024465,"~/.git/COMMIT_EDITMSG"
+-'  5  0  ~/.git/COMMIT_EDITMSG
+|4,39,5,0,1680024465,"~/.git/COMMIT_EDITMSG"
+-'  4  0  ~/.git/COMMIT_EDITMSG
+|4,39,4,0,1680024465,"~/.git/COMMIT_EDITMSG"
+-'  4  0  ~/.git/COMMIT_EDITMSG
+|4,39,4,0,1680024465,"~/.git/COMMIT_EDITMSG"
+-'  5  0  ~/.git/COMMIT_EDITMSG
+|4,39,5,0,1680024465,"~/.git/COMMIT_EDITMSG"
+-'  4  0  ~/.git/COMMIT_EDITMSG
+|4,39,4,0,1680024465,"~/.git/COMMIT_EDITMSG"
+-'  4  0  ~/.git/COMMIT_EDITMSG
+|4,39,4,0,1680024465,"~/.git/COMMIT_EDITMSG"
+-'  5  0  ~/.git/COMMIT_EDITMSG
+|4,39,5,0,1680024465,"~/.git/COMMIT_EDITMSG"
 -'  4  0  ~/.git/COMMIT_EDITMSG
 |4,39,4,0,1680024465,"~/.git/COMMIT_EDITMSG"
 -'  4  0  ~/.git/COMMIT_EDITMSG
@@ -118,6 +199,62 @@
 |4,39,5,8,1680024457,"~/docker.txt"
 -'  5  8  ~/docker.txt
 |4,39,5,8,1680024457,"~/docker.txt"
+-'  5  8  ~/docker.txt
+|4,39,5,8,1680024457,"~/docker.txt"
+-'  5  8  ~/docker.txt
+|4,39,5,8,1680024457,"~/docker.txt"
+-'  5  8  ~/docker.txt
+|4,39,5,8,1680024457,"~/docker.txt"
+-'  5  8  ~/docker.txt
+|4,39,5,8,1680024457,"~/docker.txt"
+-'  5  8  ~/docker.txt
+|4,39,5,8,1680024457,"~/docker.txt"
+-'  5  8  ~/docker.txt
+|4,39,5,8,1680024457,"~/docker.txt"
+-'  5  8  ~/docker.txt
+|4,39,5,8,1680024457,"~/docker.txt"
+-'  5  8  ~/docker.txt
+|4,39,5,8,1680024457,"~/docker.txt"
+-'  5  8  ~/docker.txt
+|4,39,5,8,1680024457,"~/docker.txt"
+-'  5  8  ~/docker.txt
+|4,39,5,8,1680024457,"~/docker.txt"
+-'  5  8  ~/docker.txt
+|4,39,5,8,1680024457,"~/docker.txt"
+-'  5  8  ~/docker.txt
+|4,39,5,8,1680024457,"~/docker.txt"
+-'  5  8  ~/docker.txt
+|4,39,5,8,1680024457,"~/docker.txt"
+-'  5  8  ~/docker.txt
+|4,39,5,8,1680024457,"~/docker.txt"
+-'  5  2  ~/docker.txt
+|4,39,5,2,1680024445,"~/docker.txt"
+-'  5  2  ~/docker.txt
+|4,39,5,2,1680024445,"~/docker.txt"
+-'  5  2  ~/docker.txt
+|4,39,5,2,1680024445,"~/docker.txt"
+-'  5  2  ~/docker.txt
+|4,39,5,2,1680024445,"~/docker.txt"
+-'  5  2  ~/docker.txt
+|4,39,5,2,1680024445,"~/docker.txt"
+-'  5  2  ~/docker.txt
+|4,39,5,2,1680024445,"~/docker.txt"
+-'  5  2  ~/docker.txt
+|4,39,5,2,1680024445,"~/docker.txt"
+-'  5  2  ~/docker.txt
+|4,39,5,2,1680024445,"~/docker.txt"
+-'  5  2  ~/docker.txt
+|4,39,5,2,1680024445,"~/docker.txt"
+-'  5  2  ~/docker.txt
+|4,39,5,2,1680024445,"~/docker.txt"
+-'  5  2  ~/docker.txt
+|4,39,5,2,1680024445,"~/docker.txt"
+-'  5  2  ~/docker.txt
+|4,39,5,2,1680024445,"~/docker.txt"
+-'  5  2  ~/docker.txt
+|4,39,5,2,1680024445,"~/docker.txt"
+-'  5  2  ~/docker.txt
+|4,39,5,2,1680024445,"~/docker.txt"
 -'  5  2  ~/docker.txt
 |4,39,5,2,1680024445,"~/docker.txt"
 -'  5  2  ~/docker.txt
@@ -132,178 +269,73 @@
 |4,39,1,135,1680024406,"~/docker.txt"
 -'  1  135  ~/docker.txt
 |4,39,1,135,1680024406,"~/docker.txt"
--'  4  1  ~/.git/COMMIT_EDITMSG
-|4,39,4,1,1680024352,"~/.git/COMMIT_EDITMSG"
--'  4  1  ~/.git/COMMIT_EDITMSG
-|4,39,4,1,1680024352,"~/.git/COMMIT_EDITMSG"
--'  4  1  ~/.git/COMMIT_EDITMSG
-|4,39,4,1,1680024352,"~/.git/COMMIT_EDITMSG"
--'  4  1  ~/.git/COMMIT_EDITMSG
-|4,39,4,1,1680024352,"~/.git/COMMIT_EDITMSG"
--'  4  1  ~/.git/COMMIT_EDITMSG
-|4,39,4,1,1680024352,"~/.git/COMMIT_EDITMSG"
--'  4  1  ~/.git/COMMIT_EDITMSG
-|4,39,4,1,1680024352,"~/.git/COMMIT_EDITMSG"
--'  4  1  ~/.git/COMMIT_EDITMSG
-|4,39,4,1,1680024352,"~/.git/COMMIT_EDITMSG"
--'  4  1  ~/.git/COMMIT_EDITMSG
-|4,39,4,1,1680024352,"~/.git/COMMIT_EDITMSG"
 -'  1  135  ~/docker.txt
-|4,39,1,135,1680024342,"~/docker.txt"
+|4,39,1,135,1680024406,"~/docker.txt"
 -'  1  135  ~/docker.txt
-|4,39,1,135,1680024342,"~/docker.txt"
+|4,39,1,135,1680024406,"~/docker.txt"
 -'  1  135  ~/docker.txt
-|4,39,1,135,1680024342,"~/docker.txt"
+|4,39,1,135,1680024406,"~/docker.txt"
 -'  1  135  ~/docker.txt
-|4,39,1,135,1680024342,"~/docker.txt"
--'  4  0  ~/.git/COMMIT_EDITMSG
-|4,39,4,0,1680024225,"~/.git/COMMIT_EDITMSG"
--'  4  0  ~/.git/COMMIT_EDITMSG
-|4,39,4,0,1680024225,"~/.git/COMMIT_EDITMSG"
--'  4  0  ~/.git/COMMIT_EDITMSG
-|4,39,4,0,1680024225,"~/.git/COMMIT_EDITMSG"
--'  4  0  ~/.git/COMMIT_EDITMSG
-|4,39,4,0,1680024225,"~/.git/COMMIT_EDITMSG"
--'  4  0  ~/.git/COMMIT_EDITMSG
-|4,39,4,0,1680024225,"~/.git/COMMIT_EDITMSG"
--'  4  0  ~/.git/COMMIT_EDITMSG
-|4,39,4,0,1680024225,"~/.git/COMMIT_EDITMSG"
--'  4  0  ~/.git/COMMIT_EDITMSG
-|4,39,4,0,1680024225,"~/.git/COMMIT_EDITMSG"
--'  4  0  ~/.git/COMMIT_EDITMSG
-|4,39,4,0,1680024225,"~/.git/COMMIT_EDITMSG"
--'  4  0  ~/.git/COMMIT_EDITMSG
-|4,39,4,0,1680024225,"~/.git/COMMIT_EDITMSG"
--'  4  0  ~/.git/COMMIT_EDITMSG
-|4,39,4,0,1680024225,"~/.git/COMMIT_EDITMSG"
--'  4  0  ~/.git/COMMIT_EDITMSG
-|4,39,4,0,1680024225,"~/.git/COMMIT_EDITMSG"
--'  4  0  ~/.git/COMMIT_EDITMSG
-|4,39,4,0,1680024225,"~/.git/COMMIT_EDITMSG"
--'  4  0  ~/.git/COMMIT_EDITMSG
-|4,39,4,0,1680024225,"~/.git/COMMIT_EDITMSG"
--'  4  0  ~/.git/COMMIT_EDITMSG
-|4,39,4,0,1680024225,"~/.git/COMMIT_EDITMSG"
--'  4  0  ~/.git/COMMIT_EDITMSG
-|4,39,4,0,1680024225,"~/.git/COMMIT_EDITMSG"
--'  4  0  ~/.git/COMMIT_EDITMSG
-|4,39,4,0,1680024225,"~/.git/COMMIT_EDITMSG"
--'  3  0  ~/.git/COMMIT_EDITMSG
-|4,39,3,0,1680024222,"~/.git/COMMIT_EDITMSG"
--'  3  0  ~/.git/COMMIT_EDITMSG
-|4,39,3,0,1680024222,"~/.git/COMMIT_EDITMSG"
--'  3  0  ~/.git/COMMIT_EDITMSG
-|4,39,3,0,1680024222,"~/.git/COMMIT_EDITMSG"
--'  3  0  ~/.git/COMMIT_EDITMSG
-|4,39,3,0,1680024222,"~/.git/COMMIT_EDITMSG"
--'  3  0  ~/.git/COMMIT_EDITMSG
-|4,39,3,0,1680024222,"~/.git/COMMIT_EDITMSG"
--'  3  0  ~/.git/COMMIT_EDITMSG
-|4,39,3,0,1680024222,"~/.git/COMMIT_EDITMSG"
--'  3  0  ~/.git/COMMIT_EDITMSG
-|4,39,3,0,1680024222,"~/.git/COMMIT_EDITMSG"
--'  3  0  ~/.git/COMMIT_EDITMSG
-|4,39,3,0,1680024222,"~/.git/COMMIT_EDITMSG"
--'  3  0  ~/.git/COMMIT_EDITMSG
-|4,39,3,0,1680024222,"~/.git/COMMIT_EDITMSG"
--'  3  0  ~/.git/COMMIT_EDITMSG
-|4,39,3,0,1680024222,"~/.git/COMMIT_EDITMSG"
--'  3  0  ~/.git/COMMIT_EDITMSG
-|4,39,3,0,1680024222,"~/.git/COMMIT_EDITMSG"
--'  3  0  ~/.git/COMMIT_EDITMSG
-|4,39,3,0,1680024222,"~/.git/COMMIT_EDITMSG"
--'  3  0  ~/.git/COMMIT_EDITMSG
-|4,39,3,0,1680024222,"~/.git/COMMIT_EDITMSG"
--'  3  0  ~/.git/COMMIT_EDITMSG
-|4,39,3,0,1680024222,"~/.git/COMMIT_EDITMSG"
--'  3  0  ~/.git/COMMIT_EDITMSG
-|4,39,3,0,1680024222,"~/.git/COMMIT_EDITMSG"
--'  3  0  ~/.git/COMMIT_EDITMSG
-|4,39,3,0,1680024222,"~/.git/COMMIT_EDITMSG"
--'  3  0  ~/.git/COMMIT_EDITMSG
-|4,39,3,0,1680024222,"~/.git/COMMIT_EDITMSG"
--'  3  0  ~/.git/COMMIT_EDITMSG
-|4,39,3,0,1680024222,"~/.git/COMMIT_EDITMSG"
--'  3  0  ~/.git/COMMIT_EDITMSG
-|4,39,3,0,1680024222,"~/.git/COMMIT_EDITMSG"
--'  3  0  ~/.git/COMMIT_EDITMSG
-|4,39,3,0,1680024222,"~/.git/COMMIT_EDITMSG"
--'  3  0  ~/.git/COMMIT_EDITMSG
-|4,39,3,0,1680024222,"~/.git/COMMIT_EDITMSG"
--'  3  0  ~/.git/COMMIT_EDITMSG
-|4,39,3,0,1680024222,"~/.git/COMMIT_EDITMSG"
--'  3  0  ~/.git/COMMIT_EDITMSG
-|4,39,3,0,1680024222,"~/.git/COMMIT_EDITMSG"
--'  3  0  ~/.git/COMMIT_EDITMSG
-|4,39,3,0,1680024222,"~/.git/COMMIT_EDITMSG"
--'  3  0  ~/.git/COMMIT_EDITMSG
-|4,39,3,0,1680024222,"~/.git/COMMIT_EDITMSG"
--'  3  0  ~/.git/COMMIT_EDITMSG
-|4,39,3,0,1680024222,"~/.git/COMMIT_EDITMSG"
--'  3  1  ~/.git/COMMIT_EDITMSG
-|4,39,3,1,1680024100,"~/.git/COMMIT_EDITMSG"
--'  3  1  ~/.git/COMMIT_EDITMSG
-|4,39,3,1,1680024100,"~/.git/COMMIT_EDITMSG"
--'  3  1  ~/.git/COMMIT_EDITMSG
-|4,39,3,1,1680024100,"~/.git/COMMIT_EDITMSG"
--'  3  1  ~/.git/COMMIT_EDITMSG
-|4,39,3,1,1680024100,"~/.git/COMMIT_EDITMSG"
--'  3  1  ~/.git/COMMIT_EDITMSG
-|4,39,3,1,1680024100,"~/.git/COMMIT_EDITMSG"
--'  3  1  ~/.git/COMMIT_EDITMSG
-|4,39,3,1,1680024100,"~/.git/COMMIT_EDITMSG"
--'  3  1  ~/.git/COMMIT_EDITMSG
-|4,39,3,1,1680024100,"~/.git/COMMIT_EDITMSG"
--'  3  1  ~/.git/COMMIT_EDITMSG
-|4,39,3,1,1680024100,"~/.git/COMMIT_EDITMSG"
--'  3  1  ~/.git/COMMIT_EDITMSG
-|4,39,3,1,1680024100,"~/.git/COMMIT_EDITMSG"
--'  3  1  ~/.git/COMMIT_EDITMSG
-|4,39,3,1,1680024100,"~/.git/COMMIT_EDITMSG"
--'  3  1  ~/.git/COMMIT_EDITMSG
-|4,39,3,1,1680024100,"~/.git/COMMIT_EDITMSG"
--'  3  1  ~/.git/COMMIT_EDITMSG
-|4,39,3,1,1680024100,"~/.git/COMMIT_EDITMSG"
--'  3  1  ~/.git/COMMIT_EDITMSG
-|4,39,3,1,1680024100,"~/.git/COMMIT_EDITMSG"
--'  3  1  ~/.git/COMMIT_EDITMSG
-|4,39,3,1,1680024100,"~/.git/COMMIT_EDITMSG"
--'  3  1  ~/.git/COMMIT_EDITMSG
-|4,39,3,1,1680024100,"~/.git/COMMIT_EDITMSG"
--'  3  1  ~/.git/COMMIT_EDITMSG
-|4,39,3,1,1680024100,"~/.git/COMMIT_EDITMSG"
--'  2  0  ~/.git/COMMIT_EDITMSG
-|4,39,2,0,1680024096,"~/.git/COMMIT_EDITMSG"
--'  2  0  ~/.git/COMMIT_EDITMSG
-|4,39,2,0,1680024096,"~/.git/COMMIT_EDITMSG"
--'  2  0  ~/.git/COMMIT_EDITMSG
-|4,39,2,0,1680024096,"~/.git/COMMIT_EDITMSG"
--'  2  0  ~/.git/COMMIT_EDITMSG
-|4,39,2,0,1680024096,"~/.git/COMMIT_EDITMSG"
--'  2  0  ~/.git/COMMIT_EDITMSG
-|4,39,2,0,1680024096,"~/.git/COMMIT_EDITMSG"
--'  2  0  ~/.git/COMMIT_EDITMSG
-|4,39,2,0,1680024096,"~/.git/COMMIT_EDITMSG"
--'  2  0  ~/.git/COMMIT_EDITMSG
-|4,39,2,0,1680024096,"~/.git/COMMIT_EDITMSG"
--'  2  0  ~/.git/COMMIT_EDITMSG
-|4,39,2,0,1680024096,"~/.git/COMMIT_EDITMSG"
--'  2  0  ~/.git/COMMIT_EDITMSG
-|4,39,2,0,1680024096,"~/.git/COMMIT_EDITMSG"
--'  2  0  ~/.git/COMMIT_EDITMSG
-|4,39,2,0,1680024096,"~/.git/COMMIT_EDITMSG"
--'  2  0  ~/.git/COMMIT_EDITMSG
-|4,39,2,0,1680024096,"~/.git/COMMIT_EDITMSG"
--'  2  0  ~/.git/COMMIT_EDITMSG
-|4,39,2,0,1680024096,"~/.git/COMMIT_EDITMSG"
--'  2  0  ~/.git/COMMIT_EDITMSG
-|4,39,2,0,1680024096,"~/.git/COMMIT_EDITMSG"
--'  2  0  ~/.git/COMMIT_EDITMSG
-|4,39,2,0,1680024096,"~/.git/COMMIT_EDITMSG"
--'  2  0  ~/.git/COMMIT_EDITMSG
-|4,39,2,0,1680024096,"~/.git/COMMIT_EDITMSG"
+|4,39,1,135,1680024406,"~/docker.txt"
+-'  1  135  ~/docker.txt
+|4,39,1,135,1680024406,"~/docker.txt"
+-'  1  135  ~/docker.txt
+|4,39,1,135,1680024406,"~/docker.txt"
+-'  1  135  ~/docker.txt
+|4,39,1,135,1680024406,"~/docker.txt"
+-'  1  135  ~/docker.txt
+|4,39,1,135,1680024406,"~/docker.txt"
+-'  1  135  ~/docker.txt
+|4,39,1,135,1680024406,"~/docker.txt"
+-'  1  135  ~/docker.txt
+|4,39,1,135,1680024406,"~/docker.txt"
+-'  1  135  ~/docker.txt
+|4,39,1,135,1680024406,"~/docker.txt"
+-'  1  135  ~/docker.txt
+|4,39,1,135,1680024406,"~/docker.txt"
+-'  1  135  ~/docker.txt
+|4,39,1,135,1680024406,"~/docker.txt"
+-'  1  135  ~/docker.txt
+|4,39,1,135,1680024406,"~/docker.txt"
+-'  1  135  ~/docker.txt
+|4,39,1,135,1680024406,"~/docker.txt"
+-'  1  135  ~/docker.txt
+|4,39,1,135,1680024406,"~/docker.txt"
 
 # Histórico de marcas nos arquivos (mais recente primeiro):
+
+> ~/socket/entrypoint.sh
+	*	1680024548	0
+	"	8	0
+	^	8	0
+	.	7	9
+	+	7	9
+
+> ~/socket/Dockerfile
+	*	1680024542	0
+	"	7	0
+	^	7	37
+	.	7	0
+	+	7	36
+	+	2	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+
+> ~/.git/COMMIT_EDITMSG
+	*	1680024512	0
+	"	2	1
+	^	2	2
+	.	2	1
+	+	36	1
+	+	1	1
+	+	3	1
+	+	4	2
+	+	5	1
+	+	1	1
+	+	2	1
 
 > ~/docker.txt
 	*	1680024506	0
@@ -315,18 +347,6 @@
 	+	6	8
 	+	2	27
 	+	10	19
-
-> ~/.git/COMMIT_EDITMSG
-	*	1680024468	0
-	"	1	1
-	^	1	2
-	.	1	1
-	+	35	1
-	+	1	1
-	+	2	1
-	+	3	2
-	+	4	1
-	+	1	1
 
 > ~/.gitignore
 	*	1680024071	0
@@ -508,20 +528,6 @@
 	^	2	0
 	.	1	0
 	+	1	0
-
-> ~/socket/entrypoint.sh
-	*	1680016951	0
-	"	8	0
-	^	8	0
-	.	7	9
-	+	7	9
-
-> ~/socket/Dockerfile
-	*	1680016930	0
-	"	14	36
-	^	14	37
-	.	14	36
-	+	14	36
 
 > ~/web/html/info.php
 	*	1680015819	0
